@@ -4,7 +4,7 @@ function Coffee({ favorite, name }) {
     return (
         <div>
             <h1>I like {name}</h1>
-            <img src = {favorite} />
+            <img src = {favorite} alt = {name} />
         </div>
     );
 }
